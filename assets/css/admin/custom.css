@@ -1,0 +1,220 @@
+.sidebar-logo
+{
+    height: unset !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.main-logo
+{
+    width: 100px;
+}
+
+textarea.custom-textarea
+{
+    height: 100px !important;
+}
+
+.reg-form-group
+{
+    margin-bottom: 50px;
+}
+
+.usertype-label
+{
+    font-size: 10px;
+    margin-left: 5px;
+    padding: 5px 10px;
+}
+
+.activestatus-label
+{
+    font-size: 10px;
+    padding: 5px 10px;
+}
+
+.modal-backdrop
+{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    z-index: 2;
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.modal-backdrop.show
+{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.modal-form-header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.modal-content
+{
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    background-color: #fff;
+}
+
+.modal-form-content
+{
+    top: 50%;
+}
+
+.modal-title
+{
+    color: #999;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.modal-title svg
+{
+    width: 30px;
+    stroke: #999;
+    vertical-align: middle;
+}
+
+.modal-body
+{
+    padding: 0 25px;
+    margin-bottom: 30px;
+}
+
+.modal-form-body
+{
+    margin-bottom: 50px;
+}
+
+.close-modal
+{
+    float: right;
+    width: 35px;
+    height: 35px;
+    stroke: #c1c1c1;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 7px;
+    box-sizing: border-box;
+    background-color: #f9f5ff;
+    transition: 0.5s;
+}
+
+.close-modal:hover
+{
+    opacity: 0.75;
+}
+
+.fix-prepend
+{
+    min-width: 50px !important;
+    text-align: center;
+}
+
+.fix-prepend > *
+{
+    margin: auto;
+}
+
+.selectric-form-control
+{
+    width: calc(100% - 50px);
+}
+
+.selectric-full-width
+{
+    width: 100%;
+}
+
+.tenant-info-list
+{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.tenant-info
+{
+    font-weight: 700;
+}
+
+.tenant-info-color
+{
+    color: #6c757d;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.top-hr
+{
+    margin-top: 25px !important;
+    margin-bottom: 10px !important;
+}
+
+.bg-secondary
+{
+    background-color: #34395e !important;
+}
+
+.tbl-label
+{
+    font-weight: 700;
+}
+
+.invoice-title-custom
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-radius
+{
+    border-radius: 30px !important;
+}
+
+.input-field
+{
+    display: flex;
+    align-items: center;
+}
+
+.hover-img
+{
+    cursor: pointer;
+}
+
+.preview-img
+{
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+}
+
+.preview-img img
+{
+    height: 100%;
+    border-radius: 10px;
+}
